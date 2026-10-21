@@ -1,0 +1,59 @@
+# Compiled binaries and executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Object files, static libraries, shared libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Debug and symbol files
+*.pdb
+*.ilk
+*.idb
+*.dSYM/
+*.suo
+
+# Build and distribution directories
+build/
+bin/
+dist/
+target/
+*.d
+
+# Logs and runtime artifacts
+*.log
+*.tlog
+
+# Environment, secrets, and credentials (Never commit credentials!)
+.env
+.env.*
+*.env
+*.token
+*.key
+*.pem
+*.cert
+*.crt
+*.secret
+secrets/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vs/
+*.swp
+*~
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.DS_Store
